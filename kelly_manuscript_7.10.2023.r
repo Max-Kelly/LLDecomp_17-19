@@ -476,8 +476,8 @@ shrimp.for.plots <- as.vector (c( -1.25, -1, -0.75,
                                   -0.5, -0.25, 0, 0.25, 0.5, 0.75, 1,
                                   1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75))
 
-###### Alternative models
-##### I. Control v. exclusion; assume same across years and streams ###############
+
+##### Model III. ###############
 
 sink("c_v_ec.jags")    ## give it a name
 cat("
